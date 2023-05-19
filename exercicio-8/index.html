@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title> método setInterval.</title>
+</head>
+<body>
+  <h1>Interval</h1>
+  <h2>Exemplo de função que usa o método setInterval</h2>
+  <h2> Se você quiser parar a execução do setInterval em algum momento, é importante utilizar o método clearInterval para evitar que o loop continue indefinidamente.</h2>
+  Este exemplo mostra hora atual em tempo real </br>
+  e exibe um pop-up de alerta a cada 5 segundos.</br>
+   Ele é um exemplo de uso das funções setInterval() para atualizar periodicamente o conteúdo da página e toLocaleTimeString() para formatar a hora atual.
+ </h2>
+
+ <!-- função exemplo em aula -->
+ <!-- <button onclick="clearInterval(createClock)">Parar a execução do relogio.Save the Planet</button>
+ <p id="resultado"></p>
+-->
+<button onclick="stopInterval()">Parar Relógio</button>
+ <button onclick="startInterval()">Iniciar Relógio</button>
+
+ <p id="clock"></p> 
+  
+  <script src="exercicio-8.js"></script>
+</body>
+</html>

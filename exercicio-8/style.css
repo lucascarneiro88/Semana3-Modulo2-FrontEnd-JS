@@ -1,0 +1,44 @@
+body{
+    background-color:black;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size:10rem;
+    color:white;
+  }
+
+  h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:silver;
+  }
+
+  button {
+    
+    background-color: red; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+  }
+  
+  button:hover {
+    background-color: blue; 
+  }
+  #clock{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:silver;
+  }
+  
+  #resultado{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:silver;
+  }

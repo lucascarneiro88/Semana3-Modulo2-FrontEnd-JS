@@ -1,0 +1,16 @@
+body{
+    background-color:black;
+  }
+  h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size:10rem;
+    color:white;
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:white;
+  }
